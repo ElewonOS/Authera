@@ -22,7 +22,7 @@ source <(curl -sSL https://raw.githubusercontent.com/ElewonOS/Authera/refs/heads
 source <(curl -sSL https://raw.githubusercontent.com/ElewonOS/Authera/refs/heads/main/repo/repo.sh)
 #For convenience when developing the script, we pull things like file path etc. from the remote server.
 #This allows simple development and quick position adjustments with a centralised system. You may want to update the file at this url during development.
-
+source <(curl -sSL https://raw.githubusercontent.com/ElewonOS/Authera/refs/heads/main/game-servers/minecraft/default_cfg.sh)
 
 
 
@@ -218,6 +218,7 @@ echo -e "${GRAY}[${GREEN}OK${GRAY}] ${LAVENDER_GRAY}Installation folders are rea
 
 echo -e "${GRAY}[${YELLOW}INFO${GRAY}] ${LAVENDER_GRAY}Downloading Minecraft server, Please wait! (Version: $mc_version_lower)...${RESET}"
 cd $MINECRAFT_SERVER_DIR
+${mc_jar_lower}-${mc_version_lower}
 sudo wget https://getbukkit.org/download/${mc_jar_lower}/${mc_jar_lower}-${mc_version_lower}.jar
 sudo touch $MINECRAFT_START_FILE
 echo "
