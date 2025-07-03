@@ -13,8 +13,8 @@ UNTURNED_SERVER_DIR="/opt/authera_servers/Unturned/unturned_server"
 GAME_APP_ID_UNTERMED="1110390"
 UNTURNED_START_FILE="start.sh"
 UNTURNED_UPDATE_FILE="unturned_update.sh"
-UNTURNED_UPDATE_URL="https://github.com/ElewonOS/Authera/blob/main/game-servers/unturned/unturned_update.sh"
-UNTURNED_START_URL="https://github.com/ElewonOS/Authera/blob/main/game-servers/unturned/start.sh"
+UNTURNED_UPDATE_URL="https://raw.githubusercontent.com/ElewonOS/Authera/refs/heads/main/game-servers/unturned/unturned_update.sh"
+UNTURNED_START_URL="https://raw.githubusercontent.com/ElewonOS/Authera/refs/heads/main/game-servers/unturned/start.sh"
 
 
 #MINECRAFT

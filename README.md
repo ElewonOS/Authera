@@ -53,7 +53,7 @@ sudo apt update && sudo apt upgrade -y
 
 ```bash
 # 🔽 Download the script
-sudo wget https://github.com/ElewonOS/Authera/tree/main/authera.sh
+sudo wget https://raw.githubusercontent.com/ElewonOS/Authera/refs/heads/main/authera.sh
 
 # ✅ Make it executable
 sudo chmod +x authera.sh
