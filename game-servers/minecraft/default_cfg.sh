@@ -13,9 +13,9 @@ source <(curl -sSL https://raw.githubusercontent.com/ElewonOS/Authera/refs/heads
 spigot-1.21.1(){
 
 cd $MINECRAFT_DIR
-https://download.oracle.com/java/24/latest/jdk-24_linux-x64_bin.deb
+sudo wget https://download.oracle.com/java/24/latest/jdk-24_linux-x64_bin.deb
 sudo dpkg -i jdk-24_linux-x64_bin.deb
-sleep
+sleep 2
 sudo rm -r jdk-24_linux-x64_bin.deb
 
 }
