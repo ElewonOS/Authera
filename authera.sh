@@ -17,9 +17,9 @@ set -e
 #Error output FINISH
 
 #We pull the colour codes from this url.
-source <(curl -sSL https://github.com/ElewonOS/Authera/tree/main/beacol/color.sh)
+source <(curl -sSL https://github.com/ElewonOS/Authera/blob/main/beacol/color.sh)
 #It reads as follows
-source <(curl -sSL https://github.com/ElewonOS/Authera/tree/main/repo/repo.sh)
+source <(curl -sSL https://github.com/ElewonOS/Authera/blob/main/repo/repo.sh)
 #For convenience when developing the script, we pull things like file path etc. from the remote server.
 #This allows simple development and quick position adjustments with a centralised system. You may want to update the file at this url during development.
 
